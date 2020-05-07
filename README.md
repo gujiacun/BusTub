@@ -2,7 +2,7 @@
 
 
 
-BusTub是在[卡耐基梅隆大学]（https://db.cs.cmu.edu）上建立的关系数据库管理系统，用于[数据库系统简介]（https://15445.courses.cs.cmu.edu） （15-445 / 645）课程。 该系统是为教育目的而开发的，不应在生产环境中使用。
+BusTub是在[卡耐基梅隆大学](https://db.cs.cmu.edu)上建立的关系数据库管理系统，用于[数据库系统简介](https://15445.courses.cs.cmu.edu）)（15-445 / 645）课程。 该系统是为教育目的而开发的，不应在生产环境中使用。
 
 BusTub is a relational database management system built at [Carnegie Mellon University](https://db.cs.cmu.edu) for the [Introduction to Database Systems](https://15445.courses.cs.cmu.edu) (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
 
