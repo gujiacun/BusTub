@@ -19,7 +19,11 @@ import static run.yuyang.db.util.Config.PAGE_SIZE;
 public class Page {
 
     @Setter(AccessLevel.NONE)
+    @Getter(AccessLevel.NONE)
     private byte[] data = new byte[PAGE_SIZE];
+
+    private boolean isObj;
+    private Pageable objData;
 
     private int pageId = INVALID_PAGE_ID;
     private int pinCount = 0;
@@ -45,7 +49,25 @@ public class Page {
     }
 
     public void setData(byte[] data) {
+        isObj = false;
         this.data = Arrays.copyOf(data, PAGE_SIZE);
     }
+
+    public void setData(Pageable page) {
+        if (!isObj) {
+            data = null;
+        }
+        isObj = true;
+        this.objData = page;
+    }
+
+    public byte[] getData() {
+        if (isObj) {
+            return objData.convertTo();
+        } else {
+            return data;
+        }
+    }
+
 
 }

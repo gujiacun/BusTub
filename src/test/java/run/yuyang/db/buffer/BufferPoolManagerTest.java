@@ -68,7 +68,8 @@ public class BufferPoolManagerTest extends TestCase {
             assertEquals(page0.getData()[i], randomBinaryData[i]);
         }
         File file = new File("test.db");
-
+        file.delete();
+        file = new File("test.log");
         file.delete();
     }
 

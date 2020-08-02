@@ -4,6 +4,7 @@ import junit.framework.TestCase;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.Arrays;
 
 @Slf4j
@@ -36,6 +37,10 @@ public class DiskManagerTest extends TestCase {
         /*¶ÁÈ¡page 6Êý¾Ý*/
         diskManager.readPage(6, tempData);
         log.debug("{}", tempData);
+        File file = new File("1.db");
+        file.delete();
+        file = new File("1.log");
+        file.delete();
     }
 
     public void testLog() {

@@ -1,6 +1,4 @@
-<img src="logo/bustub.svg" alt="BusTub Logo" height="200">
-
-
+<img src="logo/bustub.svg" alt="BusTub Logo" >
 
 BusTub是在[卡耐基梅隆大学](https://db.cs.cmu.edu)上建立的关系数据库管理系统，用于[数据库系统简介](https://15445.courses.cs.cmu.edu）)（15-445 / 645）课程。 该系统是为教育目的而开发的，不应在生产环境中使用。
 
