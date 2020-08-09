@@ -4,7 +4,7 @@ BusTub是在[卡耐基梅隆大学](https://db.cs.cmu.edu)上建立的关系数�
 
 BusTub is a relational database management system built at [Carnegie Mellon University](https://db.cs.cmu.edu) for the [Introduction to Database Systems](https://15445.courses.cs.cmu.edu) (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
 
-如果你是一名Java开发人员，恰好你的c++编写能力不是特别强，但是你又很像完成cmu15-445这门课，那你一定不要错过本项目。
+如果你是一名Java开发人员，恰好你的c++编写能力不是特别强，但是你又很想完成cmu15-445这门课，那你一定不要错过本项目。
 
 If you are a Java developer, it happens that your C ++ writing ability is not particularly strong, but you are very much like completing the course cmu15-445, then you must not miss this project.
 
